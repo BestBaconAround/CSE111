@@ -53,4 +53,4 @@ def main():
     fitting_count = int(input("Number of 90 angles in supply pipe: "))
     length_lot_to_house = float(input("Length of pipe from supply to house (meters)"))
 
-    
+    #2025
