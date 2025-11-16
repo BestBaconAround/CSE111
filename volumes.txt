@@ -1,0 +1,3 @@
+Date: 2025-11-01, Tire width: 225, Tire aspect ratio: 45, Wheel size: 20, Volume: 43.60 liters
+2025-11-01, Tire width: 225, Tire aspect ratio: 45, Wheel size: 18, Volume: 39.97 liters
+2025-11-01, Tire width: 225, Tire aspect ratio: 25, Wheel size: 24, Volume: 26.47 liters
