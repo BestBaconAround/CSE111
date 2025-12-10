@@ -18,7 +18,14 @@ doing any of the following:
 =============Example====================
             Time Spent
    Date       (hours)   Description of Work
-2025-6-12        1      programmed addition
+2025-12-06       1.5     Planned project idea, reviewed requirements, and outlined functions
+2025-12-06       1.0     Designed initial program structure and logic functions
+2025-12-07       2.0     Implemented core logic functions and input validation
+2025-12-07       1.5     Built tkinter GUI layout with labels, entries, buttons, and listbox
+2025-12-08       1.5     Connected GUI to logic functions and handled events
+2025-12-08       1.0     Wrote pytest test functions and verified calculations
+2025-12-09       1.0     Debugged issues, refined user flow, and final testing
+2025-12-09       1.5     Went crazy and had a small mental breakdown
 ----------  ----------  -------------------------
 2021-12-03      2.5     Wrote two program functions and two test functions
 2021-12-03      .5      Watched video on 

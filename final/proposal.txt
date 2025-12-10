@@ -1,0 +1,51 @@
+W05 Final Project Proposal
+
+1. Program Title
+Smart Budget Tracker GUI
+
+2. Program Description
+Many people struggle to keep track of their spending because budgeting feels confusing or too time-consuming. Expenses end up spread across receipts, random notes, and bank apps that do not clearly show how much money is left in the budget. This program solves that problem by providing a simple desktop budgeting tool with a graphical user interface (GUI). The user can enter a total budget amount, then add individual expenses with categories, and the program will automatically calculate the total spent and the remaining budget. The interface uses text fields, buttons, and a list display so the user gets instant feedback about their money without needing to do any manual calculations or spreadsheets.
+
+3. Learning Objectives
+By completing this project, I expect to learn and practice the following:
+- Build a complete graphical user interface using tkinter
+- Organize code into separate logic and GUI sections inside one program file
+- Write and use functions that take parameters and return values instead of only printing
+- Validate user input and handle invalid data safely
+- Connect GUI events (button clicks) to logic functions
+- Write and run automated tests for logic functions using pytest
+
+4. Modules Used
+The program will use the following Python modules:
+- tkinter (for the main GUI elements)
+- tkinter.ttk (for themed widgets)
+- tkinter.messagebox (for error and information dialogs)
+- typing (for type hints such as List, Dict, and Tuple)
+The test file for this project will also use:
+- pytest (for running automated test functions)
+
+5. Function Names
+These are the main functions and methods I anticipate using in the program:
+- validate_amount(text)
+- add_expense(expenses, amount, category)
+- calculate_total(expenses)
+- calculate_remaining_budget(budget, total_spent)
+- main()
+Class and method names for the GUI:
+- class BudgetApp
+- BudgetApp.__init__(self, root)
+- BudgetApp._build_widgets(self)
+- BudgetApp.on_set_budget(self)
+- BudgetApp.on_add_expense(self)
+- BudgetApp.update_expenses_listbox(self)
+- BudgetApp.update_summary_labels(self)
+- BudgetApp.clear_inputs(self)
+- BudgetApp.clear_expense_fields(self)
+
+6. Test Function Names
+These are the names of the test functions I will write in test_proposal.py:
+- test_validate_amount_valid()
+- test_validate_amount_invalid()
+- test_add_expense_creates_new_list()
+- test_calculate_total()
+- test_calculate_remaining_budget()
